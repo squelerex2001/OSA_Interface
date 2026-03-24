@@ -158,6 +158,9 @@
    <property name="singleStep">
     <double>0.000000000000000</double>
    </property>
+   <property name="value">
+    <double>1750.000000000000000</double>
+   </property>
   </widget>
   <widget class="QPushButton" name="Save">
    <property name="geometry">
@@ -220,6 +223,9 @@
    </property>
    <property name="singleStep">
     <double>0.000000000000000</double>
+   </property>
+   <property name="value">
+    <double>1.000000000000000</double>
    </property>
   </widget>
   <widget class="QPushButton" name="Resolution_Button">
