@@ -29,8 +29,10 @@ OSA = serial.Serial(OSA_PORT, timeout=1)
 
 initializePrologix()
 # Communication test
-print("Start WL:", query('STAWL?'))
-print("Stop WL:", query('STPWL?'))
+print("Start WL : ", query('STAWL?'))
+print("Stop WL : ", query('STPWL?'))
+write("L2Mk630")
+print("Marker @ :",query('L2MK?'))
 
 # Closing the serial port
 OSA.close()
